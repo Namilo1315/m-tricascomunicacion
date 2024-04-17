@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+.redes {
+    text-decoration: none;
+  
+    display: inline-block;
+    margin-left: 10px;
+    transition: .5s;
+    font-weight: 1000;
+
+   
+}
+
+.redes:hover {
+   
+    font-weight: 600;
+    transform: scale(1.5, 1.5);
+}
+.boton{
+    transition: .5s;
+}
+.boton:hover{
+    transform: scale(1.0, 1.1);
+}
+   
+.titulos{
+    font-size: 32px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color:#000000;
+    text-decoration: underline;
+    text-decoration-color: orange;
+    text-decoration-thickness: 5px;
+}
+
+  
+.counting .count{
+    font-size: 45px;
+    color: orange;
+    font-weight: 1000;
+    
+}
+
+
+footer {
+    background-color: #010103;
+     color: #ffffff;
+     text-align: center;
+     padding: 7px 0;
+     font-weight:1000;
+ }
+ 
+
+
+/* *********************/
+        /* seccion R E S P O N S I V E */
+        /* *********************/
+        
+        @media screen and (max-width: 800px) {
+            .redes {
+                display: none;
+            }
+            .logo{
+                display: none;
+            }
+            h2{
+                text-align:center;
+                font-size: 18px;  
+            }
+            .titulos{
+                font-size: 25px;
+            }
+        
+            .counting .count{
+                font-size: 30px;
+                margin: 0;
+             
+            }
+            .seguidores{
+                font-size: 25px;
+
+            }
+        }
