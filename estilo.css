@@ -23,9 +23,10 @@
 }
 .boton{
     transition: .5s;
+    margin: 2px;
 }
 .boton:hover{
-    transform: scale(1.0, 1.1);
+    transform: scale(1.1, 1.1);
 }
    
 .titulos{
@@ -55,7 +56,9 @@ footer {
      font-weight:1000;
  }
  
-
+.portada{
+    display: none;
+}
 
 /* *********************/
         /* seccion R E S P O N S I V E */
@@ -70,6 +73,7 @@ footer {
             }
             h2{
                 text-align:center;
+                justify-content: center;
                 font-size: 18px;  
             }
             .titulos{
@@ -84,5 +88,16 @@ footer {
             .seguidores{
                 font-size: 25px;
 
+            }
+            .portada{
+                display: flex;
+                
+            }
+            .boton{
+                transition: .5s;
+                margin: 1px;
+            }
+            .boton:hover{
+                transform: scale(1.0, 1.0);
             }
         }
