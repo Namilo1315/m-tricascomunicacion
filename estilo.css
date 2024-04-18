@@ -23,7 +23,7 @@
 }
 .boton{
     transition: .5s;
-    margin: 2px;
+    margin: 3px;
 }
 .boton:hover{
     transform: scale(1.1, 1.1);
@@ -91,11 +91,14 @@ footer {
             }
             .portada{
                 display: flex;
+                margin-bottom: 1px;
                 
             }
             .boton{
+                
                 transition: .5s;
-                margin: 1px;
+                margin: 5px 3px;
+                
             }
             .boton:hover{
                 transform: scale(1.0, 1.0);
