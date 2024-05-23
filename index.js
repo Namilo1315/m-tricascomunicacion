@@ -34,3 +34,12 @@ const counters = document.querySelectorAll('.count');
 
   // También puedes considerar desencadenar la animación al cargar la página si la sección ya está visible
   handleScroll();
+  
+  function responsiveMenu() {
+    let x = document.getElementById("nav");
+    if (x.className === "") {
+        x.className = "responsive";
+    } else {
+        x.className = "";
+    }
+}
